@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bonus_destroy_all",
+  "name": "obj_title_menu",
   "spriteId": {
-    "name": "spr_bonus_destroy_all",
-    "path": "sprites/spr_bonus_destroy_all/spr_bonus_destroy_all.yy",
+    "name": "spr_title_menu",
+    "path": "sprites/spr_title_menu/spr_title_menu.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_bonus_generic",
-    "path": "objects/obj_bonus_generic/obj_bonus_generic.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +24,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":64,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":1,"eventType":9,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "bonus",
-    "path": "folders/Objets/bonus.yy",
+    "name": "titles",
+    "path": "folders/Objets/titles.yy",
   },
 }

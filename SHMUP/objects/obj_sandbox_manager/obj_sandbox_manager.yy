@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "Obj_manager",
+    "path": "folders/Objets/Obj_manager.yy",
   },
 }

@@ -67,7 +67,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Space Stuff",
-    "path": "folders/Sprites/Space Stuff.yy",
+    "name": "Space_stuff",
+    "path": "folders/Sprites/Space_stuff.yy",
   },
 }
