@@ -1,9 +1,9 @@
-/// @DnDAction : YoYo Games.Common.Macro
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 2730E031
-/// @DnDArgument : "macro" "MSPEED"
-/// @DnDArgument : "value" "3"
-#macro MSPEED 3
+/// @DnDHash : 030044D9
+/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "var" "MSPEED"
+MSPEED = 3;
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
 /// @DnDVersion : 1.1
@@ -19,14 +19,16 @@ speed = MSPEED;
 
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
-/// @DnDHash : 02B68670
+/// @DnDHash : 050AF1E8
 randomize();
 
 /// @DnDAction : YoYo Games.Random.Choose
 /// @DnDVersion : 1
-/// @DnDHash : 1834A307
-/// @DnDInput : 2
+/// @DnDHash : 6E3107DC
+/// @DnDInput : 4
 /// @DnDArgument : "var" "sens_rotation"
-/// @DnDArgument : "option" "-2"
-/// @DnDArgument : "option_1" "2"
-sens_rotation = choose(-2, 2);
+/// @DnDArgument : "option" "2"
+/// @DnDArgument : "option_1" "-2"
+/// @DnDArgument : "option_2" "4"
+/// @DnDArgument : "option_3" "-4"
+sens_rotation = choose(2, -2, 4, -4);

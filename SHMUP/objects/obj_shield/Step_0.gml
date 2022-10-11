@@ -2,12 +2,12 @@
 /// @DnDVersion : 1
 /// @DnDHash : 38431E0E
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "obj_player.x"
-/// @DnDArgument : "expr_1" "obj_player.y"
+/// @DnDArgument : "expr" "obj_player_destroyer.x"
+/// @DnDArgument : "expr_1" "obj_player_destroyer.y"
 /// @DnDArgument : "var" "x"
 /// @DnDArgument : "var_1" "y"
-x = obj_player.x;
-y = obj_player.y;
+x = obj_player_destroyer.x;
+y = obj_player_destroyer.y;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

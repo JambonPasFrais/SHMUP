@@ -24,8 +24,8 @@
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_1FC8941D","spriteId":{"name":"spr_ufo","path":"sprites/spr_ufo/spr_ufo.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":576.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_2F3EE1DB","spriteId":{"name":"spr_meteor_big","path":"sprites/spr_meteor_big/spr_meteor_big.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":352.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_73A24FC1","spriteId":{"name":"spr_ufo","path":"sprites/spr_ufo/spr_ufo.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":640.0,},
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_6A423E81","spriteId":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"headPosition":0.0,"rotation":-31.478357,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":672.0,},
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4BCECC2C","spriteId":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"headPosition":0.0,"rotation":-122.630196,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":224.0,},
+        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_6A423E81","spriteId":{"name":"spr_player_classic","path":"sprites/spr_player_classic/spr_player_classic.yy",},"headPosition":0.0,"rotation":-31.478357,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":672.0,},
+        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_4BCECC2C","spriteId":{"name":"spr_player_classic","path":"sprites/spr_player_classic/spr_player_classic.yy",},"headPosition":0.0,"rotation":-122.630196,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":224.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_45E82709","spriteId":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"headPosition":0.0,"rotation":59.545673,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":256.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_5C4AE4C6","spriteId":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"headPosition":0.0,"rotation":-29.333187,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":608.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_30695FDA","spriteId":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"headPosition":0.0,"rotation":-29.333187,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":576.0,},
@@ -45,8 +45,8 @@
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
-    "Width": 1280,
-    "Height": 800,
+    "Width": 1900,
+    "Height": 1000,
     "persistent": false,
   },
   "viewSettings": {

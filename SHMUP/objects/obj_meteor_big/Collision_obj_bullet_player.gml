@@ -9,6 +9,14 @@ instance_destroy();
 /// @DnDApplyTo : other
 with(other) instance_destroy();
 
+/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+/// @DnDVersion : 1
+/// @DnDHash : 73E42BAE
+/// @DnDArgument : "score" "40"
+/// @DnDArgument : "score_relative" "1"
+if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
+__dnd_score += real(40);
+
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
 /// @DnDHash : 30B174A4
@@ -27,15 +35,10 @@ if(random_bonus == 1)
 	/// @DnDAction : YoYo Games.Random.Choose
 	/// @DnDVersion : 1
 	/// @DnDHash : 29AE3CC5
-	/// @DnDInput : 5
 	/// @DnDParent : 580AE3CB
 	/// @DnDArgument : "var" "my_bonus"
-	/// @DnDArgument : "option" "obj_bonus_life"
-	/// @DnDArgument : "option_1" "obj_bonus_destroy_all"
-	/// @DnDArgument : "option_2" "obj_bonus_score"
-	/// @DnDArgument : "option_3" "obj_bonus_shield"
-	/// @DnDArgument : "option_4" "obj_bonus_double_shoot"
-	my_bonus = choose(obj_bonus_life, obj_bonus_destroy_all, obj_bonus_score, obj_bonus_shield, obj_bonus_double_shoot);
+	/// @DnDArgument : "option" "obj_bonus_generic"
+	my_bonus = choose(obj_bonus_generic);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1

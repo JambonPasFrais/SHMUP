@@ -34,7 +34,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "Space_Stuff",
+    "path": "folders/Objets/Space_Stuff.yy",
   },
 }
