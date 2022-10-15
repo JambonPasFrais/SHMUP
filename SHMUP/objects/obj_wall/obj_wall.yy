@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bonus_generic",
-  "spriteId": null,
+  "name": "obj_wall",
+  "spriteId": {
+    "name": "spr_wall",
+    "path": "sprites/spr_wall/spr_wall.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -23,12 +26,14 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bonus",
-    "path": "folders/Objets/Bonus.yy",
+    "name": "Player",
+    "path": "folders/Objets/Player.yy",
   },
 }
