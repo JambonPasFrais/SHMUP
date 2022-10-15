@@ -8,9 +8,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5197C7A9
-/// @DnDArgument : "expr" "50"
+/// @DnDArgument : "expr" "20"
 /// @DnDArgument : "var" "ENEMY_SCORE"
-ENEMY_SCORE = 50;
+ENEMY_SCORE = 20;
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object23",
+  "name": "obj_ally_to_protect",
   "spriteId": {
-    "name": "spr_boss",
-    "path": "sprites/spr_boss/spr_boss.yy",
+    "name": "spr_ally_to_protect",
+    "path": "sprites/spr_ally_to_protect/spr_ally_to_protect.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_enemy_generic",
-    "path": "objects/obj_enemy_generic/obj_enemy_generic.yy",
+    "name": "obj_ally_generic",
+    "path": "objects/obj_ally_generic/obj_ally_generic.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objets/Enemy.yy",
+    "name": "Ally",
+    "path": "folders/Objets/Ally.yy",
   },
 }

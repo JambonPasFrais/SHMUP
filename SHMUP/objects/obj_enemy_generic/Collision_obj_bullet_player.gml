@@ -31,18 +31,6 @@ alarm_set(0, 30);
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 if(__dnd_lives <= 0)
 {
-	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
-	/// @DnDVersion : 1
-	/// @DnDHash : 4252E4BB
-	/// @DnDApplyTo : {obj_player}
-	/// @DnDParent : 6487DD3E
-	/// @DnDArgument : "score" "other.ENEMY_SCORE"
-	/// @DnDArgument : "score_relative" "1"
-	with(obj_player) {
-	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-	__dnd_score += real(other.ENEMY_SCORE);
-	}
-
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 0AFF7C6C

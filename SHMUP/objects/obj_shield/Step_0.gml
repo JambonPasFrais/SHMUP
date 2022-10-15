@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 38431E0E
+/// @DnDHash : 1FE304B2
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "obj_player_destroyer.x"
 /// @DnDArgument : "expr_1" "obj_player_destroyer.y"

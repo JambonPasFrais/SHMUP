@@ -8,9 +8,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 29B3989F
-/// @DnDArgument : "expr" "20"
+/// @DnDArgument : "expr" "40"
 /// @DnDArgument : "var" "ENEMY_SCORE"
-ENEMY_SCORE = 20;
+ENEMY_SCORE = 40;
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1
@@ -23,11 +23,11 @@ __dnd_lives = real(2);
 /// @DnDVersion : 1.1
 /// @DnDHash : 1CECF270
 /// @DnDArgument : "path" "Path_Zigzag"
-/// @DnDArgument : "speed" "SPEED_DRUNK_ENEMY"
+/// @DnDArgument : "speed" "SPEED_ZIGZAG_ENEMY"
 /// @DnDArgument : "atend" "path_action_continue"
 /// @DnDArgument : "relative" "true"
 /// @DnDSaveInfo : "path" "Path_Zigzag"
-path_start(Path_Zigzag, SPEED_DRUNK_ENEMY, path_action_continue, true);
+path_start(Path_Zigzag, SPEED_ZIGZAG_ENEMY, path_action_continue, true);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
