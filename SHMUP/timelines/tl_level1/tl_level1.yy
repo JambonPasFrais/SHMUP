@@ -9,7 +9,7 @@
     {"resourceType":"GMMoment","resourceVersion":"1.0","name":"","moment":1200,"evnt":{"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":1200,"eventType":0,"collisionObjectId":null,},},
   ],
   "parent": {
-    "name": "Chronologies",
-    "path": "folders/Chronologies.yy",
+    "name": "Timeline",
+    "path": "folders/Timeline.yy",
   },
 }
