@@ -46,7 +46,7 @@ bool_double_shoot = false;
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "expr_1" "false"
 /// @DnDArgument : "expr_2" "false"
-/// @DnDArgument : "expr_3" "15"
+/// @DnDArgument : "expr_3" "300"
 /// @DnDArgument : "var" "bool_fire_allowed"
 /// @DnDArgument : "var_1" "bool_power_used"
 /// @DnDArgument : "var_2" "bool_allow_ship_change"
@@ -54,7 +54,7 @@ bool_double_shoot = false;
 bool_fire_allowed = true;
 bool_power_used = false;
 bool_allow_ship_change = false;
-ship_change_delay = 15;
+ship_change_delay = 300;
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1

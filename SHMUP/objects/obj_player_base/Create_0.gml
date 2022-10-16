@@ -11,17 +11,24 @@ draw_set_valign(fa_top);
 
 __dnd_lives = real(3);
 
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 3E3C9E2F
+
+__dnd_health = real(0);
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 65024AEA
-/// @DnDInput : 7
+/// @DnDInput : 8
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "expr_1" "false"
 /// @DnDArgument : "expr_2" "false"
-/// @DnDArgument : "expr_3" "15"
+/// @DnDArgument : "expr_3" "5"
 /// @DnDArgument : "expr_4" "8"
 /// @DnDArgument : "expr_5" "false"
 /// @DnDArgument : "expr_6" "300"
+/// @DnDArgument : "expr_7" "10"
 /// @DnDArgument : "var" "bool_fire_allowed"
 /// @DnDArgument : "var_1" "bool_power_used"
 /// @DnDArgument : "var_2" "bool_invulnerability"
@@ -29,13 +36,15 @@ __dnd_lives = real(3);
 /// @DnDArgument : "var_4" "PSPEED"
 /// @DnDArgument : "var_5" "bool_allow_ship_change"
 /// @DnDArgument : "var_6" "ship_change_delay"
+/// @DnDArgument : "var_7" "overheating_ratio"
 bool_fire_allowed = true;
 bool_power_used = false;
 bool_invulnerability = false;
-reload_time = 15;
+reload_time = 5;
 PSPEED = 8;
 bool_allow_ship_change = false;
 ship_change_delay = 300;
+overheating_ratio = 10;
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
