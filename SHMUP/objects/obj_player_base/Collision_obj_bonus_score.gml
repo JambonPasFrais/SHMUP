@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 648C88B0
+/// @DnDApplyTo : other
+with(other) instance_destroy();
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score
 /// @DnDVersion : 1
 /// @DnDHash : 0DE39657

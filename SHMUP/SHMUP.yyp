@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "SHMUP",
   "resources": [
+    {"id":{"name":"obj_boss_base","path":"objects/obj_boss_base/obj_boss_base.yy",},"order":1,},
     {"id":{"name":"Path_Drunk","path":"paths/Path_Drunk/Path_Drunk.yy",},"order":0,},
     {"id":{"name":"obj_bullet_generic","path":"objects/obj_bullet_generic/obj_bullet_generic.yy",},"order":2,},
     {"id":{"name":"spr_bonus_destroy_all","path":"sprites/spr_bonus_destroy_all/spr_bonus_destroy_all.yy",},"order":1,},
@@ -30,7 +31,6 @@
     {"id":{"name":"spr_ufo","path":"sprites/spr_ufo/spr_ufo.yy",},"order":1,},
     {"id":{"name":"spr_bg_base","path":"sprites/spr_bg_base/spr_bg_base.yy",},"order":2,},
     {"id":{"name":"Path_Zigzag","path":"paths/Path_Zigzag/Path_Zigzag.yy",},"order":1,},
-    {"id":{"name":"obj_ufo","path":"objects/obj_ufo/obj_ufo.yy",},"order":1,},
     {"id":{"name":"obj_meteor_medium","path":"objects/obj_meteor_medium/obj_meteor_medium.yy",},"order":3,},
     {"id":{"name":"spr_bonus_life","path":"sprites/spr_bonus_life/spr_bonus_life.yy",},"order":0,},
     {"id":{"name":"spr_player_protector_life","path":"sprites/spr_player_protector_life/spr_player_protector_life.yy",},"order":3,},
@@ -89,12 +89,12 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"sandbox","path":"rooms/sandbox/sandbox.yy",},},
     {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
-    {"roomId":{"name":"game_over","path":"rooms/game_over/game_over.yy",},},
     {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
+    {"roomId":{"name":"game_over","path":"rooms/game_over/game_over.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Chemins d'accès","folderPath":"folders/Chemins d'accès.yy","order":4,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Chronologies","folderPath":"folders/Chronologies.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timeline","folderPath":"folders/Timeline.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Courbes d’animation","folderPath":"folders/Courbes d’animation.yy","order":12,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":14,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"group1","folderPath":"folders/Extensions/group1.yy","order":1,},
@@ -122,6 +122,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ally","folderPath":"folders/Sprites/Ally.yy","order":19,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Background","folderPath":"folders/Sprites/Background.yy","order":6,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bonus","folderPath":"folders/Sprites/Bonus.yy","order":21,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bullet","folderPath":"folders/Sprites/Bullet.yy","order":15,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Sprites/Enemy.yy","order":16,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy","order":7,},
@@ -129,7 +130,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Space_stuff","folderPath":"folders/Sprites/Space_stuff.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy","order":17,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile sets","folderPath":"folders/Tile sets.yy","order":2,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bonus","folderPath":"folders/Sprites/Bonus.yy","order":21,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

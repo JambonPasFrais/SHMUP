@@ -8,8 +8,8 @@ MSPEED = 3;
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Random
 /// @DnDVersion : 1.1
 /// @DnDHash : 64F1D20A
-/// @DnDArgument : "direction" "225,270,315"
-direction = choose(225,270,315);
+/// @DnDArgument : "direction" "270"
+direction = choose(270);
 
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1

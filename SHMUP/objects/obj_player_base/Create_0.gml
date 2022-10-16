@@ -28,7 +28,7 @@ __dnd_health = real(0);
 /// @DnDArgument : "expr_4" "8"
 /// @DnDArgument : "expr_5" "false"
 /// @DnDArgument : "expr_6" "300"
-/// @DnDArgument : "expr_7" "10"
+/// @DnDArgument : "expr_7" "5"
 /// @DnDArgument : "var" "bool_fire_allowed"
 /// @DnDArgument : "var_1" "bool_power_used"
 /// @DnDArgument : "var_2" "bool_invulnerability"
@@ -44,7 +44,7 @@ reload_time = 5;
 PSPEED = 8;
 bool_allow_ship_change = false;
 ship_change_delay = 300;
-overheating_ratio = 10;
+overheating_ratio = 5;
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
@@ -60,11 +60,11 @@ if(!l1C731914_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 7B261FB6
 	/// @DnDParent : 1C731914
-	/// @DnDArgument : "xpos" "room_width - spr_power_usableness.sprite_width - 10"
-	/// @DnDArgument : "ypos" "room_height - spr_power_usableness.sprite_height - 10"
+	/// @DnDArgument : "xpos" "room_width - 30"
+	/// @DnDArgument : "ypos" "room_height - 30"
 	/// @DnDArgument : "objectid" "obj_power_usableness"
 	/// @DnDSaveInfo : "objectid" "obj_power_usableness"
-	instance_create_layer(room_width - spr_power_usableness.sprite_width - 10, room_height - spr_power_usableness.sprite_height - 10, "Instances", obj_power_usableness);
+	instance_create_layer(room_width - 30, room_height - 30, "Instances", obj_power_usableness);
 }
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
