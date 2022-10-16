@@ -38,6 +38,13 @@ if(bool_power_used == false)
 	/// @DnDArgument : "var" "bool_power_used"
 	bool_power_used = true;
 
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 1A6B32FC
+	/// @DnDApplyTo : {obj_power_usableness}
+	/// @DnDParent : 28A0F7C6
+	with(obj_power_usableness) instance_destroy();
+
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 3F58D4AB

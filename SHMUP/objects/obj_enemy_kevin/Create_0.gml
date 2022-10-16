@@ -28,11 +28,11 @@ speed = SPEED_KEVIN_ENEMY;
 /// @DnDVersion : 1
 /// @DnDHash : 148AAF1C
 /// @DnDInput : 2
-/// @DnDArgument : "expr_1" "35"
+/// @DnDArgument : "expr_1" "40"
 /// @DnDArgument : "var" "state_kevin"
 /// @DnDArgument : "var_1" "ENEMY_SCORE"
 state_kevin = 0;
-ENEMY_SCORE = 35;
+ENEMY_SCORE = 40;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

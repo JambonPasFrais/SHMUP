@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 79475005
-/// @DnDArgument : "xpos" "obj_player.x"
-/// @DnDArgument : "ypos" "obj_player.y"
-/// @DnDArgument : "objectid" "obj_shield"
-/// @DnDSaveInfo : "objectid" "obj_shield"
-instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_shield);
+/// @DnDHash : 0C21DBB4
+/// @DnDArgument : "xpos" "room_width"
+/// @DnDArgument : "ypos" "room_height - 200"
+/// @DnDArgument : "objectid" "obj_ally_to_protect"
+/// @DnDSaveInfo : "objectid" "obj_ally_to_protect"
+instance_create_layer(room_width, room_height - 200, "Instances", obj_ally_to_protect);
