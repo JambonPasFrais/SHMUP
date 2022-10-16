@@ -27,40 +27,46 @@ if(bool_fire_allowed == true)
 	/// @DnDSaveInfo : "objectid" "obj_bullet_player"
 	instance_create_layer(x + 30, y + 0, "Instances", obj_bullet_player);
 
-	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Health
 	/// @DnDVersion : 1
-	/// @DnDHash : 40BFCD0E
+	/// @DnDHash : 16E89277
 	/// @DnDParent : 28061675
-	/// @DnDArgument : "expr" "false"
-	/// @DnDArgument : "var" "bool_fire_allowed"
-	bool_fire_allowed = false;
+	/// @DnDArgument : "health" "overheating_ratio"
+	/// @DnDArgument : "health_relative" "1"
+	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+	__dnd_health += real(overheating_ratio);
+
+	/// @DnDAction : YoYo Games.Instance Variables.If_Health
+	/// @DnDVersion : 1
+	/// @DnDHash : 43489F91
+	/// @DnDParent : 28061675
+	/// @DnDArgument : "op" "4"
+	/// @DnDArgument : "value" "100"
+	if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+	if(__dnd_health >= 100)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 748ADE4D
+		/// @DnDParent : 43489F91
+		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "var" "bool_fire_allowed"
+		bool_fire_allowed = false;
+	
+		/// @DnDAction : YoYo Games.Instances.Color_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 6C9F63CF
+		/// @DnDParent : 43489F91
+		/// @DnDArgument : "colour" "$FF1180FF"
+		image_blend = $FF1180FF & $ffffff;
+		image_alpha = ($FF1180FF >> 24) / $ff;
+	}
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
-	/// @DnDHash : 6D1FBB67
+	/// @DnDHash : 3907F405
 	/// @DnDParent : 28061675
-	/// @DnDArgument : "steps" "reload_time"
-	/// @DnDArgument : "alarm" "2"
-	alarm_set(2, reload_time);
-}
-
-/// @DnDAction : YoYo Games.Common.Else
-/// @DnDVersion : 1
-/// @DnDHash : 3767CBD1
-else
-{
-	/// @DnDAction : YoYo Games.Instances.Color_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 3FDE0DB9
-	/// @DnDParent : 3767CBD1
-	/// @DnDArgument : "colour" "$FF00FF43"
-	image_blend = $FF00FF43 & $ffffff;
-	image_alpha = ($FF00FF43 >> 24) / $ff;
-
-	/// @DnDAction : YoYo Games.Instances.Set_Alarm
-	/// @DnDVersion : 1
-	/// @DnDHash : 43D85781
-	/// @DnDParent : 3767CBD1
-	/// @DnDArgument : "steps" "reload_time"
-	alarm_set(0, reload_time);
+	/// @DnDArgument : "steps_relative" "1"
+	/// @DnDArgument : "alarm" "8"
+	alarm_set(8, 30 + alarm_get(8));
 }

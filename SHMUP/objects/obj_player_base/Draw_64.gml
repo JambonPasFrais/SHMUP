@@ -26,13 +26,13 @@ draw_text(30, 30, string("Score: ") + string(__dnd_score));
 /// @DnDHash : 4936B785
 /// @DnDArgument : "x" "30"
 /// @DnDArgument : "y" "room_height - 54"
-/// @DnDArgument : "sprite" "spr_player_life"
-/// @DnDSaveInfo : "sprite" "spr_player_life"
-var l4936B785_0 = sprite_get_width(spr_player_life);
+/// @DnDArgument : "sprite" "spr_player_classic_life"
+/// @DnDSaveInfo : "sprite" "spr_player_classic_life"
+var l4936B785_0 = sprite_get_width(spr_player_classic_life);
 var l4936B785_1 = 0;
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 for(var l4936B785_2 = __dnd_lives; l4936B785_2 > 0; --l4936B785_2) {
-	draw_sprite(spr_player_life, 0, 30 + l4936B785_1, room_height - 54);
+	draw_sprite(spr_player_classic_life, 0, 30 + l4936B785_1, room_height - 54);
 	l4936B785_1 += l4936B785_0;
 }
 

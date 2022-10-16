@@ -54,8 +54,7 @@ if(bool_fire_allowed == true)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3ED7BC88
 	/// @DnDParent : 083060D3
-	/// @DnDArgument : "steps" "15"
 	/// @DnDArgument : "steps_relative" "1"
 	/// @DnDArgument : "alarm" "8"
-	alarm_set(8, 15 + alarm_get(8));
+	alarm_set(8, 30 + alarm_get(8));
 }

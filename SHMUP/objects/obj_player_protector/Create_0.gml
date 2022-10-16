@@ -11,50 +11,43 @@ draw_set_valign(fa_top);
 
 __dnd_lives = real(3);
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
-/// @DnDHash : 4EDF38D6
-/// @DnDArgument : "expr" "6"
-/// @DnDArgument : "var" "PSPEED"
-PSPEED = 6;
+/// @DnDHash : 6405942C
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 379C8B66
-/// @DnDArgument : "expr" "45"
-/// @DnDArgument : "var" "reload_time"
-reload_time = 45;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 23008404
-/// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "bool_invulnerability"
-bool_invulnerability = false;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 1E846F87
-/// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "bool_double_shoot"
-bool_double_shoot = false;
+__dnd_health = real(0);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 75C6AFF5
-/// @DnDInput : 4
+/// @DnDInput : 9
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "expr_1" "false"
 /// @DnDArgument : "expr_2" "false"
 /// @DnDArgument : "expr_3" "300"
+/// @DnDArgument : "expr_4" "10"
+/// @DnDArgument : "expr_5" "6"
+/// @DnDArgument : "expr_6" "45"
+/// @DnDArgument : "expr_7" "false"
+/// @DnDArgument : "expr_8" "false"
 /// @DnDArgument : "var" "bool_fire_allowed"
 /// @DnDArgument : "var_1" "bool_power_used"
 /// @DnDArgument : "var_2" "bool_allow_ship_change"
 /// @DnDArgument : "var_3" "ship_change_delay"
+/// @DnDArgument : "var_4" "overheating_ratio"
+/// @DnDArgument : "var_5" "PSPEED"
+/// @DnDArgument : "var_6" "reload_time"
+/// @DnDArgument : "var_7" "bool_invulnerability"
+/// @DnDArgument : "var_8" "bool_double_shoot"
 bool_fire_allowed = true;
 bool_power_used = false;
 bool_allow_ship_change = false;
 ship_change_delay = 300;
+overheating_ratio = 10;
+PSPEED = 6;
+reload_time = 45;
+bool_invulnerability = false;
+bool_double_shoot = false;
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
