@@ -7,6 +7,16 @@ if(bool_allow_ship_change == true)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
+	/// @DnDHash : 0DEA8CE7
+	/// @DnDParent : 3A7C3826
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "obj_ship_change"
+	/// @DnDSaveInfo : "objectid" "obj_ship_change"
+	instance_create_layer(x + 0, y + 0, "Instances", obj_ship_change);
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
 	/// @DnDHash : 14A4AF01
 	/// @DnDParent : 3A7C3826
 	/// @DnDArgument : "xpos_relative" "1"

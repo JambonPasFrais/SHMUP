@@ -27,7 +27,7 @@ __dnd_health = real(0);
 /// @DnDArgument : "expr_3" "5"
 /// @DnDArgument : "expr_4" "8"
 /// @DnDArgument : "expr_5" "false"
-/// @DnDArgument : "expr_6" "300"
+/// @DnDArgument : "expr_6" "3"
 /// @DnDArgument : "expr_7" "5"
 /// @DnDArgument : "var" "bool_fire_allowed"
 /// @DnDArgument : "var_1" "bool_power_used"
@@ -43,7 +43,7 @@ bool_invulnerability = false;
 reload_time = 5;
 PSPEED = 8;
 bool_allow_ship_change = false;
-ship_change_delay = 300;
+ship_change_delay = 3;
 overheating_ratio = 5;
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists

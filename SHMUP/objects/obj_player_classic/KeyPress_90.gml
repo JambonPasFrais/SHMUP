@@ -5,6 +5,16 @@
 /// @DnDArgument : "value" "false"
 if(bool_power_used == false)
 {
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 011A66E9
+	/// @DnDParent : 28A0F7C6
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "obj_power_use"
+	/// @DnDSaveInfo : "objectid" "obj_power_use"
+	instance_create_layer(x + 0, y + 0, "Instances", obj_power_use);
+
 	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 5CAD6B9E

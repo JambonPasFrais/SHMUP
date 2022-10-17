@@ -1,3 +1,12 @@
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 208D49FF
+/// @DnDArgument : "xpos_relative" "1"
+/// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "objectid" "obj_destruction"
+/// @DnDSaveInfo : "objectid" "obj_destruction"
+instance_create_layer(x + 0, y + 0, "Instances", obj_destruction);
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 5C254BC8

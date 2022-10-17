@@ -1,9 +1,18 @@
+/// @DnDAction : YoYo Games.Random.Get_Random_Number
+/// @DnDVersion : 1
+/// @DnDHash : 638C1136
+/// @DnDArgument : "var" "meteor_speed"
+/// @DnDArgument : "type" "1"
+/// @DnDArgument : "min" "2"
+/// @DnDArgument : "max" "8"
+meteor_speed = floor(random_range(2, 8 + 1));
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 030044D9
-/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr" "meteor_speed / 2"
 /// @DnDArgument : "var" "MSPEED"
-MSPEED = 3;
+MSPEED = meteor_speed / 2;
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Random
 /// @DnDVersion : 1.1

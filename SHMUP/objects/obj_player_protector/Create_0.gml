@@ -63,11 +63,11 @@ if(!l6C4E38F6_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 04C4277C
 	/// @DnDParent : 6C4E38F6
-	/// @DnDArgument : "xpos" "room_width - spr_power_usableness.sprite_width - 10"
-	/// @DnDArgument : "ypos" "room_height - spr_power_usableness.sprite_height - 10"
+	/// @DnDArgument : "xpos" "room_width - 30"
+	/// @DnDArgument : "ypos" "room_height - 30"
 	/// @DnDArgument : "objectid" "obj_power_usableness"
 	/// @DnDSaveInfo : "objectid" "obj_power_usableness"
-	instance_create_layer(room_width - spr_power_usableness.sprite_width - 10, room_height - spr_power_usableness.sprite_height - 10, "Instances", obj_power_usableness);
+	instance_create_layer(room_width - 30, room_height - 30, "Instances", obj_power_usableness);
 }
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists

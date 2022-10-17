@@ -1,22 +1,47 @@
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
-/// @DnDHash : 0ECCA097
-/// @DnDArgument : "var" "xpos_meteor"
+/// @DnDHash : 13EB9DE3
+/// @DnDArgument : "var" "number_of_enemy "
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "min" "50"
-/// @DnDArgument : "max" "room_width - 50"
-xpos_meteor = floor(random_range(50, room_width - 50 + 1));
+/// @DnDArgument : "max" "3"
+number_of_enemy  = floor(random_range(0, 3 + 1));
 
-/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Loops.For_Loop
 /// @DnDVersion : 1
-/// @DnDHash : 5BD79BBE
-/// @DnDArgument : "xpos" "xpos_meteor"
-/// @DnDArgument : "objectid" "obj_meteor_big"
-/// @DnDSaveInfo : "objectid" "obj_meteor_big"
-instance_create_layer(xpos_meteor, 0, "Instances", obj_meteor_big);
+/// @DnDHash : 1BA54C7B
+/// @DnDArgument : "cond" "i <= number_of_enemy"
+for(i = 0; i <= number_of_enemy; i += 1) {
+	/// @DnDAction : YoYo Games.Random.Get_Random_Number
+	/// @DnDVersion : 1
+	/// @DnDHash : 0ECCA097
+	/// @DnDParent : 1BA54C7B
+	/// @DnDArgument : "var" "xpos_meteor"
+	/// @DnDArgument : "type" "1"
+	/// @DnDArgument : "min" "100"
+	/// @DnDArgument : "max" "room_width - 100"
+	xpos_meteor = floor(random_range(100, room_width - 100 + 1));
+
+	/// @DnDAction : YoYo Games.Random.Get_Random_Number
+	/// @DnDVersion : 1
+	/// @DnDHash : 072587D0
+	/// @DnDParent : 1BA54C7B
+	/// @DnDArgument : "var" "ypos_meteor"
+	/// @DnDArgument : "max" "50"
+	ypos_meteor = (random_range(0, 50));
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 5BD79BBE
+	/// @DnDParent : 1BA54C7B
+	/// @DnDArgument : "xpos" "xpos_meteor"
+	/// @DnDArgument : "ypos" "ypos_meteor"
+	/// @DnDArgument : "objectid" "obj_meteor_big"
+	/// @DnDSaveInfo : "objectid" "obj_meteor_big"
+	instance_create_layer(xpos_meteor, ypos_meteor, "Instances", obj_meteor_big);
+}
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 73BC981E
-/// @DnDArgument : "steps" "60"
-alarm_set(0, 60);
+/// @DnDArgument : "steps" "120"
+alarm_set(0, 120);

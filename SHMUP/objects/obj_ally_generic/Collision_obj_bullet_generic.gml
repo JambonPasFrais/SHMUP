@@ -31,6 +31,16 @@ alarm_set(0, 30);
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
 if(__dnd_health <= 0)
 {
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 180FE2CC
+	/// @DnDParent : 2A5DDC15
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "obj_destruction"
+	/// @DnDSaveInfo : "objectid" "obj_destruction"
+	instance_create_layer(x + 0, y + 0, "Instances", obj_destruction);
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 3B0D8A60
