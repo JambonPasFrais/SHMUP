@@ -5,6 +5,13 @@
 /// @DnDArgument : "var" "bool_goto_menu"
 bool_goto_menu = false ;
 
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 117B6726
+/// @DnDArgument : "objectid" "obj_music_game_over"
+/// @DnDSaveInfo : "objectid" "obj_music_game_over"
+instance_create_layer(0, 0, "Instances", obj_music_game_over);
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 6CB79E20

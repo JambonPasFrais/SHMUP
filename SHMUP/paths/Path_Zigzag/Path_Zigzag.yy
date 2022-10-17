@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Path_Zigzag",
   "kind": 0,
-  "precision": 4,
   "closed": false,
+  "precision": 4,
   "points": [
     {"speed":100.0,"x":0.0,"y":0.0,},
     {"speed":100.0,"x":0.0,"y":128.0,},

@@ -4,13 +4,6 @@
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
-/// @DnDVersion : 1
-/// @DnDHash : 261F0E09
-/// @DnDArgument : "lives" "3"
-
-__dnd_lives = real(3);
-
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
 /// @DnDHash : 3E3C9E2F

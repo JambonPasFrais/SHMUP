@@ -1,12 +1,12 @@
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score
 /// @DnDVersion : 1
 /// @DnDHash : 7778B64D
-/// @DnDApplyTo : {obj_player_base}
-/// @DnDArgument : "score" "5"
+/// @DnDApplyTo : {obj_game_manager}
+/// @DnDArgument : "score" "1"
 /// @DnDArgument : "score_relative" "1"
-with(obj_player_base) {
+with(obj_game_manager) {
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-__dnd_score += real(5);
+__dnd_score += real(1);
 }
 
 /// @DnDAction : YoYo Games.Random.Get_Random_Number

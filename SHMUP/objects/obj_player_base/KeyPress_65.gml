@@ -15,6 +15,14 @@ if(bool_fire_allowed == true)
 	/// @DnDSaveInfo : "objectid" "obj_bullet_player"
 	instance_create_layer(x + 0, y + 0, "Instances", obj_bullet_player);
 
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 1ADD758B
+	/// @DnDParent : 083060D3
+	/// @DnDArgument : "objectid" "obj_music_laser"
+	/// @DnDSaveInfo : "objectid" "obj_music_laser"
+	instance_create_layer(0, 0, "Instances", obj_music_laser);
+
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Health
 	/// @DnDVersion : 1
 	/// @DnDHash : 308E42DC

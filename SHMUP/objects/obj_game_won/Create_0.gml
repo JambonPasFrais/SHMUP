@@ -20,9 +20,9 @@ __dnd_score = real(0);
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4CC41A11
-/// @DnDArgument : "var" "variable_global_exists("player_score")"
+/// @DnDArgument : "var" "variable_global_exists("player_score") "
 /// @DnDArgument : "value" "1"
-if(variable_global_exists("player_score") == 1)
+if(variable_global_exists("player_score")  == 1)
 {
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 	/// @DnDVersion : 1

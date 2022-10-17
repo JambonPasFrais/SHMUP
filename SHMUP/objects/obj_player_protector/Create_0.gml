@@ -49,6 +49,22 @@ reload_time = 45;
 bool_invulnerability = false;
 bool_double_shoot = false;
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7340D50E
+/// @DnDArgument : "var" "variable_global_exists("player_score")"
+/// @DnDArgument : "value" "1"
+if(variable_global_exists("player_score") == 1)
+{
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 1BDA7B92
+	/// @DnDParent : 7340D50E
+	/// @DnDArgument : "score" "global.player_score"
+	
+	__dnd_score = real(global.player_score);
+}
+
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 6C4E38F6

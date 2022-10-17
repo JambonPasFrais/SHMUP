@@ -1,39 +1,19 @@
-/// @DnDAction : YoYo Games.Drawing.Set_Font
-/// @DnDVersion : 1
-/// @DnDHash : 05A15588
-/// @DnDArgument : "font" "ft_score"
-/// @DnDSaveInfo : "font" "ft_score"
-draw_set_font(ft_score);
-
-/// @DnDAction : YoYo Games.Drawing.Set_Color
-/// @DnDVersion : 1
-/// @DnDHash : 233D16A1
-/// @DnDArgument : "color" "$FFFFFF00"
-draw_set_colour($FFFFFF00 & $ffffff);
-var l233D16A1_0=($FFFFFF00 >> 24);
-draw_set_alpha(l233D16A1_0 / $ff);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
-/// @DnDVersion : 1
-/// @DnDHash : 52613237
-/// @DnDArgument : "x" "30"
-/// @DnDArgument : "y" "30"
-if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-draw_text(30, 30, string("Score: ") + string(__dnd_score));
-
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 0D57EDE6
+/// @DnDApplyTo : {obj_game_manager}
 /// @DnDArgument : "x" "30"
 /// @DnDArgument : "y" "room_height - 54"
 /// @DnDArgument : "sprite" "spr_player_destroyer_life"
 /// @DnDSaveInfo : "sprite" "spr_player_destroyer_life"
+with(obj_game_manager) {
 var l0D57EDE6_0 = sprite_get_width(spr_player_destroyer_life);
 var l0D57EDE6_1 = 0;
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 for(var l0D57EDE6_2 = __dnd_lives; l0D57EDE6_2 > 0; --l0D57EDE6_2) {
 	draw_sprite(spr_player_destroyer_life, 0, 30 + l0D57EDE6_1, room_height - 54);
 	l0D57EDE6_1 += l0D57EDE6_0;
+}
 }
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Health

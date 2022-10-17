@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score
 /// @DnDVersion : 1
 /// @DnDHash : 32C19044
-/// @DnDApplyTo : {obj_player_base}
+/// @DnDApplyTo : {obj_game_manager}
 /// @DnDArgument : "score" "30"
 /// @DnDArgument : "score_relative" "1"
-with(obj_player_base) {
+with(obj_game_manager) {
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 __dnd_score += real(30);
 }
@@ -45,11 +45,11 @@ if(__dnd_health <= 0)
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
 	/// @DnDVersion : 1
 	/// @DnDHash : 3F4D0C62
-	/// @DnDApplyTo : {obj_player_base}
+	/// @DnDApplyTo : {obj_game_manager}
 	/// @DnDParent : 7734905A
 	/// @DnDArgument : "score" "200"
 	/// @DnDArgument : "score_relative" "1"
-	with(obj_player_base) {
+	with(obj_game_manager) {
 	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 	__dnd_score += real(200);
 	}

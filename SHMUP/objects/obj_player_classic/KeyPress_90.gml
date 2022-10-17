@@ -36,9 +36,9 @@ if(bool_power_used == false)
 	/// @DnDVersion : 1
 	/// @DnDHash : 541BD93A
 	/// @DnDParent : 28A0F7C6
-	/// @DnDArgument : "expr" "20"
+	/// @DnDArgument : "expr" "15"
 	/// @DnDArgument : "var" "PSPEED"
-	PSPEED = 20;
+	PSPEED = 15;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

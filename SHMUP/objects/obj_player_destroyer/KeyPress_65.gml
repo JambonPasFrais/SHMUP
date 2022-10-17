@@ -27,6 +27,14 @@ if(bool_fire_allowed == true)
 	/// @DnDSaveInfo : "objectid" "obj_bullet_player"
 	instance_create_layer(x + -15, y + 0, "Instances", obj_bullet_player);
 
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 69D4B257
+	/// @DnDParent : 39875510
+	/// @DnDArgument : "objectid" "obj_music_laser_double"
+	/// @DnDSaveInfo : "objectid" "obj_music_laser_double"
+	instance_create_layer(0, 0, "Instances", obj_music_laser_double);
+
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Health
 	/// @DnDVersion : 1
 	/// @DnDHash : 7409D10C

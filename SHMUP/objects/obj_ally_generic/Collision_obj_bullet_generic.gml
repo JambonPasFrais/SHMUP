@@ -7,10 +7,10 @@ with(other) instance_destroy();
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
 /// @DnDHash : 0B47D20B
-/// @DnDArgument : "health" "-50"
+/// @DnDArgument : "health" "-34 "
 /// @DnDArgument : "health_relative" "1"
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-__dnd_health += real(-50);
+__dnd_health += real(-34 );
 
 /// @DnDAction : YoYo Games.Instances.Color_Sprite
 /// @DnDVersion : 1
@@ -40,6 +40,18 @@ if(__dnd_health <= 0)
 	/// @DnDArgument : "objectid" "obj_destruction"
 	/// @DnDSaveInfo : "objectid" "obj_destruction"
 	instance_create_layer(x + 0, y + 0, "Instances", obj_destruction);
+
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 042AB0AE
+	/// @DnDApplyTo : {obj_game_manager}
+	/// @DnDParent : 2A5DDC15
+	/// @DnDArgument : "score" "-200"
+	/// @DnDArgument : "score_relative" "1"
+	with(obj_game_manager) {
+	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
+	__dnd_score += real(-200);
+	}
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
