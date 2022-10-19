@@ -21,14 +21,14 @@ for(var l5837AA98_2 = __dnd_lives; l5837AA98_2 > 0; --l5837AA98_2) {
 /// @DnDHash : 00C1AC79
 /// @DnDArgument : "x1" "-45"
 /// @DnDArgument : "x1_relative" "1"
-/// @DnDArgument : "y1" "55"
+/// @DnDArgument : "y1" "80"
 /// @DnDArgument : "y1_relative" "1"
 /// @DnDArgument : "x2" "45"
 /// @DnDArgument : "x2_relative" "1"
-/// @DnDArgument : "y2" "65"
+/// @DnDArgument : "y2" "90"
 /// @DnDArgument : "y2_relative" "1"
 /// @DnDArgument : "backcol" "$FF000000"
 /// @DnDArgument : "mincol" "$FF00FF33"
 /// @DnDArgument : "maxcol" "$FF0000FF"
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-draw_healthbar(x + -45, y + 55, x + 45, y + 65, __dnd_health, $FF000000, $FF00FF33 & $FFFFFF, $FF0000FF & $FFFFFF, 0, (($FF000000>>24) != 0), (($FFFFFFFF>>24) != 0));
+draw_healthbar(x + -45, y + 80, x + 45, y + 90, __dnd_health, $FF000000, $FF00FF33 & $FFFFFF, $FF0000FF & $FFFFFF, 0, (($FF000000>>24) != 0), (($FFFFFFFF>>24) != 0));

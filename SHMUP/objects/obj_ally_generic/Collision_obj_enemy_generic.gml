@@ -46,11 +46,11 @@ if(__dnd_health <= 0)
 	/// @DnDHash : 72F2D6B4
 	/// @DnDApplyTo : {obj_game_manager}
 	/// @DnDParent : 20108556
-	/// @DnDArgument : "score" " 200 "
+	/// @DnDArgument : "score" "-200 "
 	/// @DnDArgument : "score_relative" "1"
 	with(obj_game_manager) {
 	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-	__dnd_score += real( 200 );
+	__dnd_score += real(-200 );
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance

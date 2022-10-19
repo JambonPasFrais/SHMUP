@@ -61,6 +61,17 @@ if(bool_fire_allowed == true)
 		/// @DnDArgument : "var" "bool_fire_allowed"
 		bool_fire_allowed = false;
 	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 01A2943F
+		/// @DnDParent : 6B24CB4C
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos" "-sprite_height"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_overheat"
+		/// @DnDSaveInfo : "objectid" "obj_overheat"
+		instance_create_layer(x + 0, y + -sprite_height, "Instances", obj_overheat);
+	
 		/// @DnDAction : YoYo Games.Instances.Color_Sprite
 		/// @DnDVersion : 1
 		/// @DnDHash : 3B91710A

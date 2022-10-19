@@ -15,7 +15,8 @@ direction = choose(225,270,315);
 /// @DnDVersion : 1
 /// @DnDHash : 50686FA6
 /// @DnDArgument : "speed" "MSPEED"
-speed = MSPEED;
+/// @DnDArgument : "type" "2"
+vspeed = MSPEED;
 
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
