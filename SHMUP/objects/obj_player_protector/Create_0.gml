@@ -24,7 +24,7 @@ __dnd_health = real(0);
 /// @DnDArgument : "expr" "true"
 /// @DnDArgument : "expr_1" "false"
 /// @DnDArgument : "expr_2" "false"
-/// @DnDArgument : "expr_3" "300"
+/// @DnDArgument : "expr_3" "15"
 /// @DnDArgument : "expr_4" "10"
 /// @DnDArgument : "expr_5" "6"
 /// @DnDArgument : "expr_6" "45"
@@ -42,7 +42,7 @@ __dnd_health = real(0);
 bool_fire_allowed = true;
 bool_power_used = false;
 bool_allow_ship_change = false;
-ship_change_delay = 300;
+ship_change_delay = 15;
 overheating_ratio = 10;
 PSPEED = 6;
 reload_time = 45;

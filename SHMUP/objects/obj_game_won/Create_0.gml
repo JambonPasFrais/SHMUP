@@ -5,6 +5,15 @@
 /// @DnDArgument : "var" "bool_goto_menu"
 bool_goto_menu = false ;
 
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 2E913588
+/// @DnDArgument : "xpos_relative" "1"
+/// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "objectid" "obj_music_game_win"
+/// @DnDSaveInfo : "objectid" "obj_music_game_win"
+instance_create_layer(x + 0, y + 0, "Instances", obj_music_game_win);
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 6CB79E20

@@ -29,6 +29,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/Music/Objects.yy",
+    "path": "folders/Sounds/Objects.yy",
   },
 }

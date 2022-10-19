@@ -25,6 +25,13 @@ image_alpha = 1;
 image_xscale = 5;
 image_yscale = 5;
 
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 4301095B
+/// @DnDArgument : "objectid" "obj_music_power_activation"
+/// @DnDSaveInfo : "objectid" "obj_music_power_activation"
+instance_create_layer(0, 0, "Instances", obj_music_power_activation);
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 26F8E5FD

@@ -64,6 +64,16 @@ if(__dnd_health <= 0)
 	/// @DnDSaveInfo : "objectid" "obj_destruction"
 	instance_create_layer(x + 0, y + 0, "Instances", obj_destruction);
 
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 102CEAD8
+	/// @DnDParent : 7734905A
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "obj_music_explosion_big"
+	/// @DnDSaveInfo : "objectid" "obj_music_explosion_big"
+	instance_create_layer(x + 0, y + 0, "Instances", obj_music_explosion_big);
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 35FFDF15
@@ -89,4 +99,20 @@ if(__dnd_health <= 0)
 		/// @DnDSaveInfo : "room" "game_win"
 		room_goto(game_win);
 	}
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 7C7C9026
+else
+{
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 7FE46B62
+	/// @DnDParent : 7C7C9026
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "obj_music_explosion"
+	/// @DnDSaveInfo : "objectid" "obj_music_explosion"
+	instance_create_layer(x + 0, y + 0, "Instances", obj_music_explosion);
 }

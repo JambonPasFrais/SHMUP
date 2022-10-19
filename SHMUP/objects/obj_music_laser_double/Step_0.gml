@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Audio.If_Audio_Playing
 /// @DnDVersion : 1
 /// @DnDHash : 2980CD39
-/// @DnDArgument : "soundid" "Laser___Sound_Effect"
+/// @DnDArgument : "soundid" "Laser_SE_Double"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "soundid" "Laser___Sound_Effect"
-var l2980CD39_0 = Laser___Sound_Effect;
+/// @DnDSaveInfo : "soundid" "Laser_SE_Double"
+var l2980CD39_0 = Laser_SE_Double;
 if (!audio_is_playing(l2980CD39_0))
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance

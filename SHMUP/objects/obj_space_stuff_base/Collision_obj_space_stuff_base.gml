@@ -48,6 +48,16 @@ else
 	/// @DnDSaveInfo : "objectid" "obj_destruction_meteor_self"
 	instance_create_layer(x + 0, y + 0, "Instances", obj_destruction_meteor_self);
 
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 6CAC1029
+	/// @DnDParent : 6DC2F95A
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "obj_music_explosion"
+	/// @DnDSaveInfo : "objectid" "obj_music_explosion"
+	instance_create_layer(x + 0, y + 0, "Instances", obj_music_explosion);
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1A20E697

@@ -23,6 +23,14 @@ if(bool_power_used == false)
 	image_blend = $FF00FFFF & $ffffff;
 	image_alpha = ($FF00FFFF >> 24) / $ff;
 
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 22F28AC7
+	/// @DnDParent : 28A0F7C6
+	/// @DnDArgument : "objectid" "obj_music_power_activation"
+	/// @DnDSaveInfo : "objectid" "obj_music_power_activation"
+	instance_create_layer(0, 0, "Instances", obj_music_power_activation);
+
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
 	/// @DnDHash : 6AF8D9EB
