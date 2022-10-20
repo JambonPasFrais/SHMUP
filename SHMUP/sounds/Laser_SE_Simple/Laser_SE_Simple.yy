@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Laser_SE_Simple.mp3",
-  "duration": 2.063667,
+  "duration": 0.626939,
   "parent": {
     "name": "Musics",
     "path": "folders/Sounds/Musics.yy",

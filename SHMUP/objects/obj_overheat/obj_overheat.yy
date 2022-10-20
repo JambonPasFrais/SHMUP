@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_overheat",
   "spriteId": {
-    "name": "spr_destruction_meteor_self",
-    "path": "sprites/spr_destruction_meteor_self/spr_destruction_meteor_self.yy",
+    "name": "spr_overheat",
+    "path": "sprites/spr_overheat/spr_overheat.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

@@ -15,8 +15,8 @@ instance_create_layer(0, 0, "Instances", obj_music_game_over);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 6CB79E20
-/// @DnDArgument : "steps" "180"
-alarm_set(0, 180);
+/// @DnDArgument : "steps" "300"
+alarm_set(0, 300);
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score
 /// @DnDVersion : 1

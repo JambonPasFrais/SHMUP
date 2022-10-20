@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Icons",
-    "path": "folders/Objets/UI/Icons.yy",
+    "name": "AnimationOnScene",
+    "path": "folders/Objets/UI/AnimationOnScene.yy",
   },
 }
