@@ -16,6 +16,14 @@ var l62FF04D9_0 = __dnd_lives < 7;
 }
 if(l62FF04D9_0)
 {
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 34CED90F
+	/// @DnDParent : 62FF04D9
+	/// @DnDArgument : "objectid" "obj_music_powerup"
+	/// @DnDSaveInfo : "objectid" "obj_music_powerup"
+	instance_create_layer(0, 0, "Instances", obj_music_powerup);
+
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 	/// @DnDVersion : 1
 	/// @DnDHash : 690B6BBC

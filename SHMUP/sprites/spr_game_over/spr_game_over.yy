@@ -99,7 +99,7 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Sprites/Rooms.yy",
+    "name": "Game Over Menu",
+    "path": "folders/Sprites/Rooms/Game Over Menu.yy",
   },
 }

@@ -71,7 +71,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Sprites/Rooms.yy",
+    "name": "Win Menu",
+    "path": "folders/Sprites/Rooms/Win Menu.yy",
   },
 }

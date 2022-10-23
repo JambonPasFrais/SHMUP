@@ -40,3 +40,10 @@ ENEMY_SCORE = 40;
 /// @DnDArgument : "steps" "90"
 /// @DnDArgument : "alarm" "1"
 alarm_set(1, 90);
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 3E46EB67
+/// @DnDArgument : "objectid" "obj_music_kevin"
+/// @DnDSaveInfo : "objectid" "obj_music_kevin"
+instance_create_layer(0, 0, "Instances", obj_music_kevin);
