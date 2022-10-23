@@ -17,6 +17,6 @@ timeline_running = 1;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 4C3F54D6
-/// @DnDArgument : "steps" "2000"
+/// @DnDArgument : "steps" "1500"
 /// @DnDArgument : "alarm" "3"
-alarm_set(3, 2000);
+alarm_set(3, 1500);
